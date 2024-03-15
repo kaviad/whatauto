@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grade Report</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  .container {
+    width:95%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header h1 {
+    margin: 0;
+  }
+  .grade-report {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .grade-report, .grade-report th, .grade-report td {
+    border: 1px solid #000;
+  }
+  .grade-report th, .grade-report td {
+    padding: 10px;
+    text-align: left;
+  }
+  .grade-report th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #notify{
+    color: rgb(208, 51, 51);
+    font-size: 25px;
+    margin-right: 0px;
+    margin-left: auto;
+  }
+</style>
+</head>
+<body>
+<div class="container"> 
+   
+  <div class="header">
+    <h1>R.M.K. ENGINEERING COLLEGE</h1>
+    <p>RSM NAGAR, KAVARAIPETTAI  601 206</p>
+    <p>(An Autonomous Institution)</p>
+    <p>DEPARTMENT OF ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</p>
+    <p>4th Semester  First Internal Assessment Marks</p>
+  </div>
+  <div>
+    <p id="roll_number">Register Number: </p>
+    <p id="name">Name: </p>
+  </div>
+  <table class="grade-report">
+    <tr>
+      <th>Subject Code</th>
+      <th>Theory</th>
+    </tr>
+   
+  </table>
+ 
+  <div class="footer">
+    <div>
+    <p>Counsellors</p>
+    <p>Dr.Gladis Merlin N.R<br>Ms. Shanthi .M </p>
+    </div>
+    <div>
+      <p>Head of the Department</p>
+      <p>Dr.Sandra Johnson</p>
+    </div>
+    </div>
+    <p id="notify"> *Computer Generated Report </p>
+   
+ 
+</div>
+</body>
+</html>
