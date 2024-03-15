@@ -1,0 +1,2 @@
+# whatauto
+class project
